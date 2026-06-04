@@ -31,7 +31,7 @@ function Hero() {
         {/* Fallback image */}
         <img 
           src="https://www.theteamex.com/public/images/banner-desktop.jpg" 
-          alt="TeamEx Activities Banner Poster" 
+          alt="Activators Activities Banner Poster" 
           style={{ width: '100%', height: 'auto', display: 'block' }} 
         />
       </picture>

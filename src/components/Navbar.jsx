@@ -12,8 +12,9 @@ function Navbar({ activeSection, scrolled, mobileMenuOpen, setMobileMenuOpen }) 
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         {/* Brand Logo */}
-        <a href="#home" className="logo-wrapper" onClick={() => setMobileMenuOpen(false)}>
-          <span>Team<span className="ex-logo">Ex</span></span>
+        <a href="#home" className="logo-wrapper" onClick={() => setMobileMenuOpen(false)} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+          <img src="/logo.jpg" alt="Activators Logo" style={{ height: '36px', width: 'auto', borderRadius: '4px' }} />
+          <span>Activators</span>
         </a>
 
         {/* Navigation Links */}

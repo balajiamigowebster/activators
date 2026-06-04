@@ -8,8 +8,9 @@ function Footer() {
           
           {/* Brand Info */}
           <div style={{ textAlign: 'left' }}>
-            <a href="#home" className="logo-wrapper" style={{ color: '#ffffff', fontSize: '1.8rem', fontWeight: '800', marginBottom: '1.5rem', textDecoration: 'none', display: 'block' }}>
-              <span>Team<span style={{ color: 'var(--accent-pink)' }}>Ex</span></span>
+            <a href="#home" className="logo-wrapper" style={{ color: '#ffffff', fontSize: '1.8rem', fontWeight: '800', marginBottom: '1.5rem', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+              <img src="/logo.jpg" alt="Activators Logo" style={{ height: '36px', width: 'auto', borderRadius: '4px' }} />
+              <span>Activators</span>
             </a>
             <p className="footer-brand-desc" style={{ color: '#c3c6d1', lineHeight: '1.6', maxWidth: '300px', marginBottom: '1.5rem', fontSize: '0.92rem' }}>
               Redefining Team Building Experiences. Inspiring Creativity, Innovation, and Collaboration in modern teams through Fun Gamified Experiences.
@@ -44,7 +45,7 @@ function Footer() {
         </div>
 
         <div className="footer-bottom" style={{ borderTop: '1px solid rgba(255, 255, 255, 0.1)', marginTop: '3rem', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem', color: '#c3c6d1', fontSize: '0.88rem' }}>
-          <p>&copy; {new Date().getFullYear()} TeamEx. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Activators. All rights reserved.</p>
           <p>Inspiring Creativity and Collaboration.</p>
         </div>
       </div>

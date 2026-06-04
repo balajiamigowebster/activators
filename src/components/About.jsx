@@ -25,7 +25,7 @@ function About() {
           <div className="about-content">
             <div className="about-content-text">
               <p>
-                <strong>TeamEx</strong> is your go-to group of creative professionals who specialise in innovative team building activities. We offer a wide range of activities to encourage bonding and collaboration within your team.
+                <strong>Activators</strong> is your go-to group of creative professionals who specialise in innovative team building activities. We offer a wide range of activities to encourage bonding and collaboration within your team.
               </p>
               <p>
                 We're dedicated to helping your team reach its full potential and work together to improve the morale and efficiency of the organisation. Get ready to experience extraordinary teamwork!

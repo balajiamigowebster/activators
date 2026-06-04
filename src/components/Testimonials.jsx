@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const TESTIMONIALS_DATA = [
   {
-    quote: "The event was conducted exceptionally well. We had two hours of fun, engaging in multiple activities organized by the TeamEx team. By the end, we were delightfully exhausted and enjoyed every moment. A special shoutout to their balloon activities and the creative props used for the dress-up games!",
+    quote: "The event was conducted exceptionally well. We had two hours of fun, engaging in multiple activities organized by the Activators team. By the end, we were delightfully exhausted and enjoyed every moment. A special shoutout to their balloon activities and the creative props used for the dress-up games!",
     author: "Vaishali",
     role: "HR Manager, IndiaLends",
     image: null
@@ -32,13 +32,13 @@ const TESTIMONIALS_DATA = [
     image: null
   },
   {
-    quote: "My team at Google went for a team building event organised by The TeamEx. The activities offered by them were pretty unique and the team enjoyed a lot",
+    quote: "My team at Google went for a team building event organised by Activators. The activities offered by them were pretty unique and the team enjoyed a lot",
     author: "Ishank Saxena",
     role: "Google",
     image: "https://www.theteamex.com/public/upload/testimonials/ZzW16abYKT_unnamed.png"
   },
   {
-    quote: "TeamEx completely exceeded my expectations and did a fantastic job. From planning to execution, they managed every aspect with great professionalism, energy, and attention to detail. Highly recommended for anyone looking for someone who takes ownership and delivers exceptional results.",
+    quote: "Activators completely exceeded my expectations and did a fantastic job. From planning to execution, they managed every aspect with great professionalism, energy, and attention to detail. Highly recommended for anyone looking for someone who takes ownership and delivers exceptional results.",
     author: "Isha R.",
     role: "Senior HR Manager, Saigal SeaTrade",
     image: null
@@ -50,13 +50,13 @@ const TESTIMONIALS_DATA = [
     image: null
   },
   {
-    quote: "Kalyan and TeamEx offer something really unique and interactive to help your employees bond. The whole day changed the way our employees think and act. It rectified internal coordination issues across our multiple offices to a great extent.",
+    quote: "Kalyan and Activators offer something really unique and interactive to help your employees bond. The whole day changed the way our employees think and act. It rectified internal coordination issues across our multiple offices to a great extent.",
     author: "Aman Mittal",
     role: "Director, Vani Kabir Multiverse",
     image: null
   },
   {
-    quote: "Build a Wheelchair activity was the activity where we were provided with props to construct wheelchairs for a CSR initiative. TeamEx even helped us partner with an NGO to donate the wheelchairs, adding a truly impactful dimension to the experience. Highly recommend them if you’re looking for a team-building activity that goes beyond the ordinary and leaves a lasting impression!",
+    quote: "Build a Wheelchair activity was the activity where we were provided with props to construct wheelchairs for a CSR initiative. Activators even helped us partner with an NGO to donate the wheelchairs, adding a truly impactful dimension to the experience. Highly recommend them if you’re looking for a team-building activity that goes beyond the ordinary and leaves a lasting impression!",
     author: "Rohan",
     role: "Gufic",
     image: null

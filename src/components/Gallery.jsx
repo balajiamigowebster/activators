@@ -18,7 +18,7 @@ function Gallery() {
         <div className="main-gallery">
           {IMAGES.map((src, index) => (
             <a key={index} href={src} target="_blank" rel="noopener noreferrer">
-              <img src={src} alt={`TeamEx event ${index + 1}`} />
+              <img src={src} alt={`Activators event ${index + 1}`} />
               <div className="main-gallery-overlay">
                 <div className="gallery-overlay-icon">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
