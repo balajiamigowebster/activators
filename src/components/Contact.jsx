@@ -70,7 +70,7 @@ function Contact() {
                 />
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.2rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', marginBottom: '1.2rem' }}>
                 <div className="form-group" style={{ textAlign: 'left' }}>
                   <label className="form-label" style={{ fontWeight: '600', marginBottom: '0.4rem', display: 'block' }}>Date of Event</label>
                   <input 
