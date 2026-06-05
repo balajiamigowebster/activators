@@ -46,7 +46,7 @@ function Navbar({ activeSection, scrolled, mobileMenuOpen, setMobileMenuOpen }) 
           </li>
 
           {/* Dropdown 3: About */}
-          <li className="nav-item-dropdown">
+          {/* <li className="nav-item-dropdown">
             <a href="#about" className="nav-link">
               About us <ArrowIcon />
             </a>
@@ -55,7 +55,7 @@ function Navbar({ activeSection, scrolled, mobileMenuOpen, setMobileMenuOpen }) 
               <a href="#about" className="nav-dropdown-item">Our Mission</a>
               <a href="#team" className="nav-dropdown-item">Our Team</a>
             </div>
-          </li>
+          </li> */}
 
           <li>
             <a href="#gallery" className="nav-link">Gallery</a>
