@@ -26,35 +26,22 @@ function Navbar({ activeSection, scrolled, mobileMenuOpen, setMobileMenuOpen }) 
           {/* Dropdown 1: Activities */}
           <li className="nav-item-dropdown">
             <a href="#popular-activities" className="nav-link">
-              Team Building Activities <ArrowIcon />
+              About Us <ArrowIcon />
             </a>
             <div className="nav-dropdown-menu">
-              <a href="#popular-activities" className="nav-dropdown-item">Outdoor Games</a>
-              <a href="#popular-activities" className="nav-dropdown-item">Indoor Games</a>
-              <a href="#popular-activities" className="nav-dropdown-item">Motivation Activities</a>
-              <a href="#popular-activities" className="nav-dropdown-item">Leadership Team Building</a>
-              <a href="#popular-activities" className="nav-dropdown-item">Communication</a>
-              <a href="#popular-activities" className="nav-dropdown-item">Tech Based Programs</a>
-              <a href="#popular-activities" className="nav-dropdown-item">Problem Solving</a>
-              <a href="#popular-activities" className="nav-dropdown-item">Training and Development</a>
-              <a href="#business-games" className="nav-dropdown-item">Business Games</a>
-              <a href="#construction-activities" className="nav-dropdown-item">Construction + Invention</a>
-              <a href="#fun-bonding" className="nav-dropdown-item">Fun + Bonding</a>
+              <a href="#popular-activities" className="nav-dropdown-item">Company Profile</a>
+              <a href="#popular-activities" className="nav-dropdown-item">Faclitator Profile</a>
             </div>
           </li>
 
           {/* Dropdown 2: Experiences */}
           <li className="nav-item-dropdown">
             <a href="#about" className="nav-link">
-              All Experiences <ArrowIcon />
+              Services <ArrowIcon />
             </a>
             <div className="nav-dropdown-menu">
-              <a href="#popular-activities" className="nav-dropdown-item">Team Building Games</a>
-              <a href="#about" className="nav-dropdown-item">Virtual Engagement</a>
-              <a href="#about" className="nav-dropdown-item">Corporate Retreats & Offsites</a>
-              <a href="#about" className="nav-dropdown-item">Corporate Training</a>
-              <a href="#about" className="nav-dropdown-item">Specialized Coaching</a>
-              <a href="#about" className="nav-dropdown-item">Fan & Crowd Engagement</a>
+              <a href="#popular-activities" className="nav-dropdown-item">Corporate Training</a>
+              <a href="#about" className="nav-dropdown-item">College Team Outing</a>
             </div>
           </li>
 
